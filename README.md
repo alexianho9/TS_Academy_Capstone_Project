@@ -108,23 +108,11 @@ TSA_DS_Capstone_Group3/
 │   │   ├── Europe_Brent_Spot_Price.csv
 │   │   └── pms_monthly_reports/   # 37 individual NBS reports 
 |   |
-|   | 
-├── visuals/
-│   ├── EDA_plots/
-│   └── model_plots/
-│
-├── notebooks/
-│   ├── 01_Project_Setup_and_Data_Loading.ipynb
-│   ├── 02_Data_Cleaning_and_Preprocessing.ipynb
-│   ├── 03_Data_Merging_and_Feature_Engineering.ipynb
-│   ├── 04_Exploratory_Data_Analysis.ipynb
-│   ├── 05_SARIMA_Modelling.ipynb
-│   ├── 06_XGBoost_Modelling.ipynb
-│   ├── 07_Prophet_Modelling.ipynb
-│   ├── 08_Model_Comparison_and_Evaluation.ipynb
-│   ├── 09_Documentation_and_Report.ipynb
-│   └── merged_submission_notebook.ipynb
-│
+|
+|   
+├── Documentation_and_Report.ipynb
+├── LICENSE
+├── Early Warning Food Price Monitor — Northeast Nigeria_TS_Academy_Capstone_Project.ipynb
 ├── app.py
 ├── requirements.txt
 └── README.md
@@ -136,16 +124,8 @@ TSA_DS_Capstone_Group3/
 
 | # | Notebook | Description |
 |:--|:---------|:------------|
-| 01 | Project Setup & Data Loading | Environment setup, raw data ingestion, initial inspection |
-| 02 | Data Cleaning & Preprocessing | Missing value handling, outlier treatment, data type corrections |
-| 03 | Data Merging & Feature Engineering | Master dataset construction, lag features, harvest season indicator, cross-commodity average price, subsidy removal indicator |
-| 04 | Exploratory Data Analysis | Price distributions, trend analysis, seasonality decomposition, correlation analysis, conflict impact visualisation |
-| 05 | SARIMA Modelling | Per-combination parameter selection, SARIMAX feature testing, single-step evaluation against naive baseline |
-| 06 | XGBoost Modelling | Direct multi-horizon modelling (H1/H2/H3), feature importance analysis, walk-forward evaluation |
-| 07 | Prophet Modelling | Multiplicative seasonality, subsidy regressor, Tier 1 and Tier 2 evaluation, proportional split for Tier 2 |
-| 08 | Model Comparison & Evaluation | Cross-model aggregation, best model selection, horizon decay analysis, results export |
-| 09 | Documentation & Report | Full project documentation, literature review, methodology, results narrative, conclusions |
-| — | Merged Submission Notebook | NB01–NB08 merged into a single end-to-end executable notebook |
+| 01 | Early Warning Food Price Monitor — Northeast Nigeria_TS_Academy_Capstone_Project.ipynb |  a single end-to-end executable notebook |
+| 02 | Documentation_and_Report.ipynb | A comprehensive runthrough of the notebook for non-technical personnels  |
 
 ---
 
@@ -224,19 +204,19 @@ seaborn
 
 ## 👥 Team
 
-| Name | Role | GitHub |
-|:-----|:-----|:-------|
-| Olofin Deborah (Temi) | Team Lead, Lead Data scientist, ML engineer | [@Mi-kami](https://github.com/Mi-kami) |
-| Barilee Victor Kayii | EDA | [@Alexinho9](https://github.com/Alexinho9) |
-| Amusa Rhoda | EDA, Modelling & Analytics | [@Musa-Rhoda](https://github.com/Musa-Rhoda) |
-| Mrs. Judith Amaka | EDA | [@Judithamaka1](https://github.com/Judithamaka1) |
-| Awoyemi Emmanuel| EDA | [@awoyemiemmanuel1900](https://github.com/awoyemiemmanuel1900) |
-| Dare Divine | Evaluation & Insight | [@Dee-animated](https://github.com/Dee-animated) |
-| Daniel Abel Ojonugwa| Documentation & Report | [@danielojonugwa](https://github.com/danielojonugwa) |
-| Divine ega | Documentation & Report | [@divineega](https://github.com/divineega) |
-| Dr. Ajibola | Documentation & Report | [@DrAjibola](https://github.com/DrAjibola) |
-| Afeez Adigun Shittu | Data Sourcing, Deployment | [@afeezshittu28-debug](https://github.com/afeezshittu28-debug) |
-| Mr. Showunmi Jonathan | Documentation & Report | [@Shoyemi-Jonathan-Showunmi](https://github.com/Shoyemi-Jonathan-Showunmi) |
+| Name | Email | Role | GitHub | Github_Repo |
+|:-----|:------|:-----|:-------|:------------|
+| 1.Olofin Deborah Temitope | deboraholofin43@gmail.com | Team Lead, Data Scientist & ML Engineer | [@Mi-kami](https://github.com/Mi-kami) | https://github.com/Mi-kami/TS_Academy_Capstone_Project |
+| 2. Victor Barilee Kayii | xianhodebaryl8@gmail.com | EDA | [@Alexinho9](https://github.com/Alexinho9) | https://github.com/alexianho9/TS_Academy_Capstone_Project |
+| 3. Amusa Rhoda | musarhoda52@gmail.com | EDA, Modelling & Analytics | [@Musa-Rhoda](https://github.com/Musa-Rhoda) | https://github.com/rhodamusa/TS_Academy_Capstone_Project |
+| 4. Mrs. Judith Amaka | nneamaka23@gmail.com | EDA | [@Judithamaka1](https://github.com/Judithamaka1) |https://github.com/Judithamaka1/TS_Academy_Capstone_Project  |
+| 5. Awoyemi Emmanuel | awoyemiemmanuel1900@gmail.com  | EDA | [@awoyemiemmanuel1900](https://github.com/awoyemiemmanuel1900) | https://github.com/awoyemiemmanuel1900/TS_Academy_Capstone_Project |
+| 6. Dare Divine | ishemidivine@gmail.com | Evaluation & Insight | [@Dee-animated](https://github.com/Dee-animated) | https://github.com/Dee-animated/TS_Academy_Capstone_Project- |
+| 7. Daniel Abel Ojonugwa | Danielojonugwa82@gmail.com | Documentation & Report | [@danielojonugwa](https://github.com/danielojonugwa) | https://github.com/danielojonugwa/TS_Academy_Capstone_Project |
+| 8. Divine ega | divineega@gmail.com | Documentation & Report | [@divineega](https://github.com/divineega) | https://github.com/divineega/-TS_Academy_Capstone_Project |
+| 9. Dr. Abdulrafiu abdulkadir Ajibola  | Abdulkadirajibola01@gmail.com | Documentation & Report | [@DrAjibola](https://github.com/DrAjibola) | https://github.com/DrAjibola/TS_Academy_Capstone_Project- |
+| 10. Afeez Adigun Shittu | Aadigun079@gmail.com | Data Sourcing, Deployment | [@afeezshittu28-debug](https://github.com/afeezshittu28-debug) | https://github.com/afeezshittu28-debug/TS_Academy_Capstone_Project |
+| 11. Mr. Showunmi Jonathan | shoyemishowunmi1@gmail.com | Documentation & Report | [@Shoyemi-Jonathan-Showunmi](https://github.com/Shoyemi-Jonathan-Showunmi) | https://github.com/pastorshow/TS_Academy_Capstone_Project |
 
 ---
 
